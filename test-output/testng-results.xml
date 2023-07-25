@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-25T12:41:53 IST" name="Suite" finished-at="2023-07-25T12:43:21 IST" duration-ms="87523">
+    <groups>
+    </groups>
+    <test started-at="2023-07-25T12:41:53 IST" name="Test" finished-at="2023-07-25T12:43:21 IST" duration-ms="87523">
+      <class name="test.Createtest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.Createtest@489115ef]" started-at="2023-07-25T12:41:53 IST" name="setup" finished-at="2023-07-25T12:42:06 IST" duration-ms="12357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifycreate()[pri:0, instance:test.Createtest@489115ef]" started-at="2023-07-25T12:42:06 IST" name="verifycreate" finished-at="2023-07-25T12:42:12 IST" duration-ms="5853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycreate -->
+      </class> <!-- test.Createtest -->
+      <class name="test.TCarttest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TCarttest@4e08711f]" started-at="2023-07-25T12:42:12 IST" name="setup" finished-at="2023-07-25T12:42:33 IST" duration-ms="21336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifysignin()[pri:1, instance:test.TCarttest@4e08711f]" started-at="2023-07-25T12:42:33 IST" name="verifysignin" finished-at="2023-07-25T12:42:39 IST" duration-ms="5757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysignin -->
+        <test-method signature="verifyproduct()[pri:2, instance:test.TCarttest@4e08711f]" started-at="2023-07-25T12:42:39 IST" name="verifyproduct" finished-at="2023-07-25T12:42:50 IST" duration-ms="11115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyproduct -->
+        <test-method signature="verifycart()[pri:3, instance:test.TCarttest@4e08711f]" started-at="2023-07-25T12:42:50 IST" name="verifycart" finished-at="2023-07-25T12:43:21 IST" duration-ms="31003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycart -->
+      </class> <!-- test.TCarttest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
